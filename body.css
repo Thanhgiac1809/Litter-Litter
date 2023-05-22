@@ -1,0 +1,385 @@
+.menu {
+    width: 1924.5px;
+    height: 107.82px;
+    background: #ED7200;
+    box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.item {
+    padding-top: 40px;
+
+}
+
+.menu .img {
+    padding-top: 40px;
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
+
+.menu a {
+    padding-top: 40px;
+    width: 96px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu p {
+    padding-left: 40px;
+    width: 97px;
+    height: 20px;
+    /* Montserrat / 16 bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.phone{
+    display: flex;
+    
+}
+.sp {
+    background-color: #FFD000;
+    width: 1924.5px;
+
+}
+
+.sp .img {
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.ds {
+    text-align: center;
+
+    display: flex;
+    width: 360px;
+    height: 100px;
+    left: 397px;
+    top: 137px;
+    font-family: 'iCiel';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100px;
+    /* identical to box height, or 139% */
+    /* W */
+    color: #FFFFFF;
+}
+
+.park {
+    margin-top: -50px;
+    display: flex;
+    width: 322px;
+    height: 100px;
+    left: 397px;
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100px;
+    /* identical to box height, or 139% */
+
+
+    /* W */
+
+    color: #FFFFFF;
+
+}
+
+.anh1 {
+    margin-left: 80px;
+    margin-top: -80px;
+    position: absolute;
+    left: 53.59%;
+    right: 40.31%;
+    top: 8.61%;
+    bottom: 75.63%;
+}
+
+.anh2 {
+    margin-top: 40px;
+    left: 42.03%;
+    right: 50.47%;
+    top: 16.58%;
+    bottom: 64.86%;
+}
+
+.anh3 {
+    margin-right: 50px;
+    margin-top: -50px;
+
+}
+
+.text {
+    left: 4.47%;
+    right: 40.92%;
+    top: 8%;
+    bottom: 67%;
+    text-align: left;
+    /* 20 medium */
+    margin: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    /* Text */
+    color: #23221F;
+    opacity: 0.7;
+
+}
+
+.inf {
+    background: #FFF6D4;
+
+}
+
+.sao {
+    width: 703px;
+    height: 36px;
+
+    /* 24 bold */
+    margin-left: 300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    /* Text */
+
+    color: #23221F;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ticket {
+
+    position: absolute;
+    left: 37%;
+    color: white;
+    background: linear-gradient(176.02deg, #FF000A -12.67%, #C2000B 101.08%);
+
+    /* Koni / 28  */
+
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+}
+
+.infove {
+    background: #FFF6D4;
+    height: 584px;
+}
+
+.in {
+
+    position: absolute;
+    width: 398px;
+    height: 56px;
+    left: 180px;
+    top: 60px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}
+
+.sl {
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 260px;
+
+    position: absolute;
+    width: 150px;
+    height: 56px;
+    left: 180px;
+    top: 130px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}
+
+.date {
+
+    position: absolute;
+    width: 224px;
+    height: 56px;
+    left: 355px;
+    top: 130px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+
+
+}
+
+.name {
+
+    position: absolute;
+    width: 467px;
+    height: 66px;
+    left: 180px;
+    top: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 260px;
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}
+
+.sdt {
+
+    position: absolute;
+    width: 467px;
+    height: 66px;
+    left: 180px;
+    top: 280px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 260px;
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}
+
+.email {
+
+    position: absolute;
+    width: 467px;
+    height: 66px;
+    left: 180px;
+    top: 360px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 260px;
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}
+
+.buyve {
+    height: 584px;
+    margin-top: -50px;
+}
+
+.datve {
+    position: absolute;
+    left: 43%;
+    right: 38%;
+    top: 77%;
+
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+    /* W */
+    color: #FFFFFF;
+    background-color: red;
+}
+
+.khicau6 {
+    position: absolute;
+    width: 147.37px;
+    height: 210px;
+    left: 18px;
+    top: 381px;
+}
+.khicau5 {
+    position: absolute;
+    width: 147.37px;
+    height: 210px;
+    left: 700px;
+    top: 251px;
+}
+.lisa{
+    position: absolute;
+width: 488px;
+height: 510px;
+left: -100px;
+top: 628px;
+}
+.khicau3{
+margin-left: 820px;
+margin-top: -30px;
+}
