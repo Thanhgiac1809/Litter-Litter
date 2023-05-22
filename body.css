@@ -58,10 +58,12 @@
     order: 1;
     flex-grow: 0;
 }
-.phone{
+
+.phone {
     display: flex;
-    
+
 }
+
 .sp {
     background-color: #FFD000;
     width: 1924.5px;
@@ -114,7 +116,7 @@
 }
 
 .anh1 {
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: -80px;
     position: absolute;
     left: 53.59%;
@@ -133,7 +135,7 @@
 
 .anh3 {
     margin-right: 50px;
-    margin-top: -50px;
+    margin-top: -80px;
 
 }
 
@@ -159,15 +161,16 @@
 
 .inf {
     background: #FFF6D4;
+    border-radius: 7%;
+    width: 912px;
 
 }
 
 .sao {
     width: 703px;
     height: 36px;
-
     /* 24 bold */
-    margin-left: 300px;
+    margin-left: 200px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -192,7 +195,7 @@
 .ticket {
 
     position: absolute;
-    left: 37%;
+    left: 30%;
     color: white;
     background: linear-gradient(176.02deg, #FF000A -12.67%, #C2000B 101.08%);
 
@@ -208,6 +211,8 @@
 .infove {
     background: #FFF6D4;
     height: 584px;
+    border-radius:10% ;
+ 
 }
 
 .in {
@@ -215,7 +220,7 @@
     position: absolute;
     width: 398px;
     height: 56px;
-    left: 180px;
+    left: 25px;
     top: 60px;
 
     /* W */
@@ -240,7 +245,7 @@
     position: absolute;
     width: 150px;
     height: 56px;
-    left: 180px;
+    left: 25px;
     top: 130px;
 
     /* W */
@@ -257,7 +262,7 @@
     position: absolute;
     width: 224px;
     height: 56px;
-    left: 355px;
+    left: 198px;
     top: 130px;
 
     /* W */
@@ -274,9 +279,9 @@
 .name {
 
     position: absolute;
-    width: 467px;
+    width: 430px;
     height: 66px;
-    left: 180px;
+    left: 25px;
     top: 200px;
 
     display: flex;
@@ -296,9 +301,9 @@
 .sdt {
 
     position: absolute;
-    width: 467px;
+    width: 430px;
     height: 66px;
-    left: 180px;
+    left: 25px;
     top: 280px;
 
     display: flex;
@@ -318,9 +323,9 @@
 .email {
 
     position: absolute;
-    width: 467px;
+    width: 430px;
     height: 66px;
-    left: 180px;
+    left: 25px;
     top: 360px;
 
     display: flex;
@@ -339,12 +344,12 @@
 
 .buyve {
     height: 584px;
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 .datve {
     position: absolute;
-    left: 43%;
+    left: 40%;
     right: 38%;
     top: 77%;
 
@@ -363,23 +368,26 @@
     width: 147.37px;
     height: 210px;
     left: 18px;
-    top: 381px;
+
 }
+
 .khicau5 {
     position: absolute;
     width: 147.37px;
     height: 210px;
-    left: 700px;
-    top: 251px;
+    left: 540px;
+    top: 80px;
 }
-.lisa{
+
+.lisa {
     position: absolute;
-width: 488px;
-height: 510px;
-left: -100px;
-top: 628px;
+    width: 488px;
+    height: 510px;
+    left: -10px;
+    top: 628px;
 }
-.khicau3{
-margin-left: 820px;
-margin-top: -30px;
+
+.khicau3 {
+    margin-left: 820px;
+    margin-top: 10px;
 }
