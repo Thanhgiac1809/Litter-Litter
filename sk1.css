@@ -1,0 +1,135 @@
+.menu {
+    width: 1924.5px;
+    height: 107.82px;
+    background: #ED7200;
+    box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.item {
+    padding-top: 40px;
+
+}
+
+.menu .img {
+    padding-top: 40px;
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
+
+.menu a {
+    padding-top: 40px;
+    width: 96px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu p {
+    padding-left: 40px;
+    width: 97px;
+    height: 20px;
+    /* Montserrat / 16 bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.phone {
+    display: flex;
+
+}
+.sp {
+    background-color: #FFD000;
+    width: 1924.5px;
+    height: 1088px;
+}
+
+.til {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.event1 {
+    background: #FFF6D4;
+    border-radius: 45px;
+    padding: 30px;
+    padding-top: 80px;
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 623.2723388671875px;
+    width: 1519px;
+    
+}
+
+.imga {
+    height: 337px;
+    width: 411px;
+    border-radius: 10px;
+
+}
+
+.text {
+    display: flex;
+}
+.lorem{
+    /* 18 medium */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+text-align: justify;
+
+}
+.pr {
+    height: 234px;
+    width: 288px;
+
+
+
+    
+    /* 18 medium */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    
+    color: #000000;
+    
+}

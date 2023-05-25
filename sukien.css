@@ -1,0 +1,105 @@
+.menu {
+    width: 1924.5px;
+    height: 107.82px;
+    background: #ED7200;
+    box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.item {
+    padding-top: 40px;
+
+}
+
+.menu .img {
+    padding-top: 40px;
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
+
+.menu a {
+    padding-top: 40px;
+    width: 96px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu p {
+    padding-left: 40px;
+    width: 97px;
+    height: 20px;
+    /* Montserrat / 16 bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.bd{
+background: linear-gradient(0deg, #FFA12C 1.71%, #FFB600 96.65%);
+height: 1088px;
+}
+.sk{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+}
+.card {
+    /* Sự kiện 1 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 32px;
+    gap: 16px;
+    width: 356px;
+    height: 499px;
+    background: #FFFFFF;
+    /* tabs */
+    box-shadow: 4px 4px 45px rgba(109, 46, 0, 0.35);
+    border-radius: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.card-header {
+    /* Rectangle 1 */
+    width: 356px;
+    height: 240px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ev {
+    margin-right: -60px;
+}
