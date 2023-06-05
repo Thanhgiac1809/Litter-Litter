@@ -1,0 +1,271 @@
+.menu {
+    width: 1924.5px;
+    height: 107.82px;
+    background: #ED7200;
+    box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.item {
+    padding-top: 40px;
+
+}
+
+.menu .img {
+    padding-top: 40px;
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
+
+.menu a {
+    padding-top: 40px;
+    width: 96px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu p {
+    padding-left: 40px;
+    width: 97px;
+    height: 20px;
+    /* Montserrat / 16 bold */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    /* W */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.phone {
+    display: flex;
+
+}
+
+.bd {
+    padding-top: 10px;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+    height: 1104px;
+}
+
+.sk {
+
+    /* Header */
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* identical to box height, or 104% */
+
+
+    /* W */
+
+    color: #FFFFFF;
+}
+
+.inf {
+    background: #FFF6D4;
+    border-radius: 7%;
+    height: 606px;
+    width: 926px;
+
+
+
+
+}
+
+.infove {
+    background: #FFF6D4;
+    height: 584px;
+    border-radius: 10%;
+    height: 165px;
+    width: 515px;
+}
+
+.in {
+
+    position: absolute;
+    width: 398px;
+    height: 56px;
+    left: 25px;
+    top: 60px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+}
+
+.namelh {
+    /* Frame 5 */
+
+
+    width: 293px;
+    height: 56px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.emaillh {
+    width: 491px;
+    height: 56px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sdtlh {
+
+    width: 293px;
+    height: 56px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.dclh {
+
+    width: 491px;
+    height: 58px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.notelh {
+
+    position: absolute;
+    width: 808px;
+    height: 152px;
+    left: 100px;
+    top: 319px;
+
+    /* W */
+
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+
+}
+
+.bt {
+    position: absolute;
+    left: 28%;
+    right: 0%;
+    top: 82%;
+    bottom: 10.49%;
+    height: 60.868553161621094px;
+    width: 368.01788330078125px;
+    color: #FFFFFF;
+    background: #FF000A;
+
+    font-family: 'iCiel Koni';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 41px;
+    letter-spacing: 0.06em;
+
+}
+
+.text {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.name {
+    margin: 20px;
+    margin-left: 80px;
+}
+
+.sdt {
+    margin: 20px;
+    margin-left: 80px;
+}
+
+.ins {
+    margin-top: 50px;
+
+}
+
+.alex {
+    position: absolute;
+    width: 464px;
+    height: 594px;
+    left: -70px;
+    top: 387px;
+}

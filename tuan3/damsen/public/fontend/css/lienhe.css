@@ -204,9 +204,9 @@
 }
 
 .note {
+    margin-top: 20px;
 
-    position: absolute;
-    width: 808px;
+    width: 820px;
     height: 152px;
     left: 100px;
     top: 319px;
