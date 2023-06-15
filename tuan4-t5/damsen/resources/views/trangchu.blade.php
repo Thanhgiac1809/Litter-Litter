@@ -48,16 +48,17 @@
             </div>
             <div class="col-lg-3 infove" style="height: 584px;">
                 <h3 class="ticket">VE CUA BAN</h3>
-                <form action="{{url('/thanhtoan')}}" name="myform">
-                    <select class="in" name="cars" id="cars" >
-                        <option value="giadinh">Gói Gia Đình </option>
-                        <option value="1n">Gói Cá Nhân</option>
+                <form action="{{url('/thanhtoan')}}" name="myform" > 
+                    @csrf
+                    <select class="in" name="car"  >
+                        <option value="0">Gói Bình Thường </option>
+                        <option value="1">Gói FullCombo</option>
                     </select>
-                    <input class="sl" type="number" placeholder="số lượng vé">
-                    <input class="date" type="date" placeholder="ngày sử dụng">
-                    <input  class="name" type="text" placeholder="họ và tên">
-                    <input style="width: 430px; height: 66px;" class="sdt" type="number" placeholder="Number">
-                    <input style="width: 430px; height: 66px;" class="email" type="email" placeholder="Email">
+                    <input name="slv" class="sl" type="number" placeholder="số lượng vé" required>
+                    <input name="ngayuse" class="date" type="date" placeholder="ngày sử dụng"required>
+                    <input name="hoten"  class="name" type="text" placeholder="họ và tên" required >
+                    <input name="sodienthoai" style="width: 430px; height: 66px;" class="sdt" type="number" placeholder="Number" required>
+                    <input name="gmail" style="width: 430px; height: 66px;" class="email" type="email" placeholder="Email" required>
                     <button class="datve">Đặt Vé</button>
                 </form>
                 <img src="fontend/img/Vector.png" alt="">

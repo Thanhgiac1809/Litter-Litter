@@ -14,12 +14,23 @@ use App\Http\Controllers\myController;
 |
 */
 
+
+/// Trang chủ
 Route::get('/', [myController::class, 'trangchu']);
+
+//Lieen He 
 Route::get('/lienhe', [myController::class, 'lienhe']);
 Route::post('/lienhe', [myController::class, 'postlienhe']);
+
+
+// Su kien
 Route::get('/sukien', [myController::class, 'sukien']);
 Route::get('/sk1', [myController::class, 'sk1']);
+
+//Thanh Toan
 Route::get('/thanhtoan', [myController::class, 'thanhtoan']);
+
+// Thanh Toan thanh cong
 Route::get('/tttc', [myController::class, 'tttc']);
 
 
